@@ -8,10 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019-02-27
  */
 @RestController
-@RequestMapping("/springboot/test")
+@RequestMapping("/springboot")
 public class TestController {
+
     @RequestMapping("/hello")
     public String hello () {
-        return "This is my first web project demo for spring boot!!!";
+        return "Hello World! Here I come!";
+    }
+
+    @RequestMapping("/init")
+    public String init () {
+        return "Hello World! Start by Tomcat!";
     }
 }
