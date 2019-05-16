@@ -16,6 +16,8 @@ public class TestController {
         return "Hello World! Here I come!";
     }
 
+
+
     @RequestMapping("/init")
     public String init () {
         return "Hello World! Start by Tomcat!";
