@@ -8,6 +8,7 @@ public class SpringbootdemoApplication {
 
     public static void main(String[] args) {
         System.out.println("Branch Test 2");
+        System.out.println("Branch Test 1");
         SpringApplication.run(SpringbootdemoApplication.class, args);
     }
 
